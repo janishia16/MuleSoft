@@ -40,11 +40,11 @@ CREATE TABLE `movie` (
 --
 
 INSERT INTO `movie` (`name`, `actor`, `actress`, `director`, `year`) VALUES
-('charlie', 'rakshit', 'charlie', 'adarsh', 2001),
-('charlie', 'rakshit', 'charlie', 'adarsh', 2001),
-('kgf 2', 'yash', 'nidhi', 'neel', 2022),
-('kgf 1', 'yash', 'shreenidhi', 'prashanth', 2018),
-('beast', 'vijay', 'pooja', 'nelson', 2021);
+('RRR', 'Ram charan teja', 'alia bhatt', 'S.S Rajamouli', 2022),
+('moonfall', 'Patrick Wilson', '	Halle Berry', 'Roland Emmerich', 2022),
+('Golmaal 3', 'Ajay Devgn', 'Kareena Kapoor', 'Rohit Shetty', 2010),
+('Bhuj: The Pride of India', 'Ajay Devgn', 'Pooja Bhavoria', 'Abhishek Dudhaiya', 2021),
+('Dharmaveer', 'Prasad Oak', 'Shruti Marathe', 'Pravin Tarde', 20212);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
