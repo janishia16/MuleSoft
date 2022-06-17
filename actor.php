@@ -1,9 +1,9 @@
 <?php
 
-$server="localhost";                    //server name
-$user="root";                           //user name
-$password="";                           //password is empty for sql
-$db="db_movies";                              //database name
+$server="localhost";                    //server 
+$user="root";                           //user 
+$password="";                       
+$db="movie";                              //database
 
 $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
 ?>
@@ -69,7 +69,7 @@ $conn = mysqli_connect($server,$user,$password,$db);    //connecting to database
               {
                 echo '<script type="text/javascript">';
                 echo 'alert("No records found");';
-                echo 'window.location.href="display.php";';
+                echo 'window.location.href="dis.php";';
                 echo "</script>";  
               }
             }
