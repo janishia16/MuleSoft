@@ -41,7 +41,7 @@ CREATE TABLE `movie` (
 
 INSERT INTO `movie` (`name`, `actor`, `actress`, `director`, `year`) VALUES
 ('RRR', 'Ram charan teja', 'alia bhatt', 'S.S Rajamouli', 2022),
-('moonfall', 'Patrick Wilson', '	Halle Berry', 'Roland Emmerich', 2022),
+('moonfall', 'Patrick Wilson', 'Halle Berry', 'Roland Emmerich', 2022),
 ('Golmaal 3', 'Ajay Devgn', 'Kareena Kapoor', 'Rohit Shetty', 2010),
 ('Bhuj: The Pride of India', 'Ajay Devgn', 'Pooja Bhavoria', 'Abhishek Dudhaiya', 2021),
 ('Dharmaveer', 'Prasad Oak', 'Shruti Marathe', 'Pravin Tarde', 20212);
